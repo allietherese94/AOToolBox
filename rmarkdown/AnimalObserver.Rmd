@@ -1,0 +1,9 @@
+### What is Animal Observer?
+
+Animal Observer is an application developed for the Apple iPad. Researchers may use it to streamline behavioral data collection. The seamless interface permits users to collect focal and scan observations of their study animals. The data can then be exported directly into digital form. 
+
+Use the tabs above for instructions on how to upload the protocol files that will be run on the application and how to convert collected data into csv files. You will need an iPad, an iPad cable, as well as the [iTunes software](http://www.apple.com/itunes/download/) package installed on your computer.
+
+If you have any questions about the toolbox or the app, please email
+<a href="mailto:dcaillaud@gorillafund.org" target="_top">Damien Caillaud</a>. 
+
