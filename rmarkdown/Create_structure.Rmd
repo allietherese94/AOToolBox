@@ -15,21 +15,24 @@ Below is an example of what this .csv file can look like:
 
 ***
 
-In the above example, the columns BEHAVIOR, CONTEXT, FOOD, MUTUAL, PHYSICAL.CONTACT were used to specify variables to be recorded during a focal observation. These columns can be edited as required. 
+In the above example, the columns BEHAVIOR, CONTEXT, _FOOD, MUTUAL, PHYSICAL.CONTACT were used to specify variables to be recorded during a focal observation. These columns can be edited as required. NOTE: the table above has a column names FOOD, but it should be _FOOD... This will be corrected shortly.
 
-However, if food items are to be recorded, the **FOOD** column *must* take the following values:
+However, if food items are to be recorded and are provided in a separate file, the **_FOOD** column *must* take the following values:
 
 * "NA" or an empty cell
 * "_FOOD". This refers to the foods.csv file which specifies all food species relevant to the study. 
 
 (See **4. Upload optional list of food items** below).
 
+The structure of the csv file is important. Each row corresponds to a possible sequence of behavior and modifiers. For exmaple, if you're interested in 3 different behaviors and if each behavior has a single modifier with 4 different levels, you should have 12 rows in your csv file. The structure of the file should be hierarchical, from the leftmost colulmn to the righmost column to match the sequence of behaviors and modifiers you want to display in the pop-up window.
+
+
 *N.B. You can view and edit the uploaded .csv file using the <a id="link_to_dyad" href="#" class="action-button">Dyadic</a> tab above.* 
     
 ***
 ***
 
-#### 2. Upload acitivity (scan) csv file
+#### 2. Upload activity (scan) csv file
 
 To upload a list of activities that will be recorded for each scan, create a ".csv" file that specifies each of these activities and any other associated variables you wish to record during a scan. 
 
@@ -45,7 +48,7 @@ As many variables as required may be specified.
 
 * If the identity of an individual is to be recorded for a certain activity, this must be specified in one of the columns with the value "_ID". This refers to the group composition .csv file (See <a id="link_to_animals" href="#" class="action-button">Study animals</a> for specifications) which lists all individuals being studied. 
 
-* Similarly, if the food item is to be recorded during a scan, this must be specified in the **FOOD** column with the value "_FOOD". 
+* Similarly, if the food item is to be recorded during a scan, this must be specified in the **_FOOD** column with the value "_FOOD". 
 
 *N.B. You can view and edit the uploaded .csv file using the <a id="link_to_scan" href="#" class="action-button">Scan</a> tab above.*
 
