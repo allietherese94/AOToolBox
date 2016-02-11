@@ -37,29 +37,44 @@
 <li><p>Use Compass: if you turn this feature on, you will be able to enter the compass bearing of the focal individual at the end of each scan. Combined with the GPS data, this feature can be used to calculate the lat/lon coordinate of all the individuals you are observing. This type of data can then be used to study individual movement patterns (who is at the front of the group, who walks behind...etc).</p></li>
 <li><p>Map mode: in this mode, the typical background (target with circles at 2m, 5m, 10m, 20m... etc) is replaced by an image in png format. If this image is a map of a small study area (eg, forest clearing visited by gorillas, enclosure in a sanctuary or a zoo), you will be able to use your scan data to look at which areas of your map are used the most (or the least) by your study individuals or groups.</p></li>
 <li><p>the data upload/download button also offers a few features, the most important being "delete all behavior data"...</p></li>
-<li><p>press "confirm settings" and access the focal settings. Select an individual, a focal duration and a scan interval.</p></li>
+<li><p>tap "confirm settings" and access the focal settings. Select an individual, a focal duration and a scan interval.</p></li>
 <li><p>if you want to enter focal-specific variable, it's possible. The default version only has one such variable (Data usage) but this can be customized.</p></li>
-<li><p>press "Start Focal" and proceed with the first scan. Drag individuals from the left panel to the scene and place them wherever you see them around the focal individual. Tap on the individuals you want to record activities for. To select several individuals at the same time, double tap on the scene and draw a circle around these individuals BEFORE your second tap looses contact with the screen. This gesture may require a little bit of practice...</p></li>
+<li><p>press "Start Focal" and proceed with the first scan. Drag individuals from the left panel to the scene and place them wherever you see them around the focal individual. Tap on the individuals you want to record activities for. To select several individuals at the same time, double tap on the scene and draw a circle around these individuals BEFORE your second tap looses contact with the screen. This gesture may require a little bit of practice... The x,y position of each individual is recorded at the end of the scan. If map mode is off, the focal individual has coordinates {0,0} and the other individuals' coordinates are expressed in meters. If map mode is on, the origin of the coordinate system is the lower left corner of the background map.</p></li>
 <li><p>Enter scan-specific variables on the bottom left panel and finish your scan. If Compass is on, you can then enter the bearing of the focal individual.</p></li>
-<li><p>During the interval between scans, you can enter social behavior data and move individual on the scene. The movements are NOT recorded, and the location of each individual on the scene is only a tool to help with animal identification and to prepare for the next scan. To enter social interaction data, lock the "move" switch and drag your finger between two individuals. If the behavioral is directional (eg, grooming, dominance interactions...), make sure you drag from the actor to the subject.</p></li>
-<li><p>To enter individual-specific data, double tap on an individual and follow the menus.</p></li>
-<li><p>All the menus (dyadic interaction )</p></li>
+<li><p>During the interval between scans, you can enter social behavior data and move individual on the scene. The movements are NOT recorded, and the location of each individual on the scene is only a tool to help with animal identification and to prepare the next scan. To enter social interaction data, lock the "move" switch and drag your finger between two individuals. If the behavioral is directional (eg, grooming, dominance interactions...), make sure you drag from the actor to the subject.</p></li>
+<li><p>To enter individual-specific data, double tap on an individual and follow the menus. Such data may include self-directed behaviors (self-grooming...) or information such as health data.</p></li>
+<li><p>Dyadic interaction data and individual-specific data can be edited by tapping on the edit button at the top right corner of the screen. Comments can then be added.</p></li>
+<li><p>All three types of pop-up menus (dyadic interaction, individual activities recorded during scans and individual-specific data) can be customized.</p></li>
+<li><p>At the bottom of the scene, three buttons allow recording videos, photos, voice or written comments. When written comments are saved, the GPS coordinate is also recorded.</p></li>
 </ul>
 
 <h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<a id="customizing-animal-observer" class="anchor" href="#customizing-animal-observer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Customizing <strong><em>Animal Observer</em></strong>
+</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>We designed a small application names <strong><em>Animal Observer Toolbox</em></strong> to allow you to generate the <em>json</em> files needed to customize your user interface. You will need a recent version of software R to be able to access this application. R can be downloaded <a href="https://cran.r-project.org/">here</a>. Make sure R is installed on every computer you will use to set up Animal Observer and to download collected data. You will also need package 'shiny' to be installed. To do so, just type <code>install.packages('shiny')</code> in the R console.</p>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<p>You will need an internet connection the first time you run the toolbox. To launch it, just type:</p>
 
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<pre><code>library(shiny)
+runGitHub("FosseyFund/AOToolBox-public")
+</code></pre>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+<p>Necessary packages will then automatically be downloaded and the toolbox will start in your default internet browser. Follow the instructions in the different tabs to set up your user interface and convert the data you've collected to a set of csv files.</p>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<p>Once you've launched the Toolbox once using the above command, you can run it even without an internet access using the following procedure:</p>
+
+<ul>
+<li>Download the whole repository using the links at the top of the page. Unzip or untar it if you've downloaded it in a compressed format. You should obtain a folder named 'AOToolBox'.</li>
+<li>Make sure R's working directory includes the AOToolBox folder.</li>
+<li>Launch it from R by typing:</li>
+</ul>
+
+<pre><code>library(shiny)
+runApp('AOToolBox')
+</code></pre>
+
+<p>Thanks !</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/FosseyFund/AOToolBox">Animal Observer</a> is maintained by <a href="https://github.com/FosseyFund">FosseyFund</a>.</span>
