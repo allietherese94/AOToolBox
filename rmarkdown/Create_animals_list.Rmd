@@ -9,29 +9,29 @@ To upload a list of the individuals being observed, create a ".csv" file which s
 
 ***
 
-Below is an example of what this .csv file can look like:
+Below is an example of what this ".csv" file can look like:
 
  ![Sample .csv file](images/group_eg.png)
 
 ***
 
-This file can include as many variables about group composition as necessary, for example the sex and age. The following columns  are *required*:
+This file can include as many variables about group composition as necessary, for example the sex and age. The following columns  are *required* and the labels must be typed as in the quotes:
 
-* **ID** | to specify the identity of the individuals.  
-* **GR** | to specify the group, if multiple social units are being studied.  
-* **birthday** | to specicy the birth date of individuals; must be in the format:   "YYYY-MM-DD".  
-* **sex** | to specify the sex; can take values F, M, or U.   
+* **"ID"** | to specify the identity of the individuals.  
+* **"GR"** | to specify the group, if multiple social units are being studied.  
+* **"birthday"** | to specify the birth date of individuals; must be in the format:   "YYYY-MM-DD".  
+* **"sex"** | to specify the sex; can take values F, M, or U.   
 
-Upload the file using the panel on the left and then download the **animals.json** file. 
+Upload the file using the panel on the left and then download the **"animals.json"** file. 
 
-*N.B. You can view and edit the uploaded .csv file using the <a id="link_to_grp" href="#" class="action-button">Group composition</a> tab above.* 
+*N.B. You can view and edit the uploaded ".csv" file using the <a id="link_to_grp" href="#" class="action-button">Group composition</a> tab above.* 
 
 ***
 
 #### Add animals.json file to iPad
 
-* Once this .csv file has been uploaded, click on "Run" and the **animals.json** file will be generated. 
+* Once this ".csv" file has been uploaded, click on "Run" and the **"animals.json"** file will be generated. 
 
-* Connect the iPad to your computer. Launch iTunes on your computer. Click on the **Apps** tab in the Settings menu, then click on the Animal Observer app under **File sharing**. This will open a list called "Animal Observer Documents". Drag and drop the **animals.json** file into this list and sync the device. 
+* Connect the iPad to your computer. Launch iTunes on your computer. Click on the **Apps** tab in the Settings menu, then click on the Animal Observer app under **File sharing**. This will open a list called **Animal Observer Documents**. Drag and drop the **"animals.json"** file into this list and sync the device. 
 
  ![Animals_json_eg](images/animals_json_eg.png)

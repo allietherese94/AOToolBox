@@ -10,11 +10,11 @@
 3. Launch iTunes on your computer. 
 
 4. Click on the **Apps** tab in the Settings menu, then click on the Animal Observer app under **File sharing**.
-This will open a list of all the Animal Observer documents, including the data file which will be a .json file named **"Username_Date_Time.json"**. 
+This will open a list of all the Animal Observer documents, including the data file which will be a ".json" file named **"Username_Date_Time.json"**. 
 
 5. Drag and drop this file into a local directory on your computer. 
 
-*N.B. You might also have sound clips, images, or notes taken during the focal. These files will also be found under Animal Observer documents and can be saved onto your computer.*
+*N.B. You might also have sound clips, images, or notes taken during the focal. These files will also be found under* **Animal Observer Documents** *and can be saved onto your computer.*
 
 ***
 
@@ -24,8 +24,8 @@ This will open a list of all the Animal Observer documents, including the data f
 
 ### Convert data to csv
 
-To convert this .json file into a .csv file:
+To convert this ".json" file into a ".csv" file:
 
-* Upload the .json file you downloaded using the panel on the left. You must also upload the "behaviors.json" and "layout_info.json" files that were used in the app. 
+* Upload the ".json" file you downloaded using the panel on the left. You must also upload the **"behaviors.json"** and **"layout_info.json"** files that were used in the app. 
 
-* The data will then be automatically converted into readable .csv format and can be downloaded as tables using the "Download" buttons on the left panel. Et voilà!
+* The data will then be automatically converted into readable ".csv" format and can be downloaded as tables using the "Download" buttons on the left panel. Et voilà!
