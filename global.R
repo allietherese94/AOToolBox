@@ -1,8 +1,9 @@
 install.load <- function(package.name)
 {
-if (require(package.name)) install.packages(package.name)
-library(package.name)
+if (!require(package.name, character.only=T)) install.packages(package.name)
+library(package.name, character.only=T)
 }
+install.load("rjson")
 install.load("shiny")
 install.load("rjson")
 install.load("rhandsontable")
