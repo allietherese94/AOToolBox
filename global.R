@@ -1,6 +1,7 @@
 require(shiny)
 require(rjson)
 require(rhandsontable)
+require(markdown)
 source("prepare_behaviorsJson.R")
 source("prepare_foodsDyadicScanSolo.R")
 source("jsonOutputConversion.R")
