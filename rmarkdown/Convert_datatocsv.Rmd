@@ -14,7 +14,7 @@ This will open a list of all the Animal Observer documents, including the data f
 
 5. Drag and drop this file into a local directory on your computer. 
 
-*N.B. You might also have sound clips, images, or notes taken during the focal. These files will also be found under* **Animal Observer Documents** *and can be saved onto your computer.*
+*N.B. You might also have recorded sound clips or images during the focal. These files will also be found under* **Animal Observer Documents** *and can be saved onto your computer. Any notes taken will be saved in the data file.*
 
 ***
 

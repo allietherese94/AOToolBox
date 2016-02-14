@@ -33,6 +33,26 @@ textInput <- reactive({
 	return(version)
 })
 
+observeEvent(input$link_to_structure, {
+  newvalue <- "Create focal/scan data structure file"
+  updateTabsetPanel(session,"panels",newvalue)
+})
+
+observeEvent(input$link_to_studyanimals, {
+  newvalue <- "Create list of study animals"
+  updateTabsetPanel(session,"panels",newvalue)
+})
+
+observeEvent(input$link_to_globalvar, {
+  newvalue <- "Create global variables file"
+  updateTabsetPanel(session,"panels",newvalue)
+})
+
+observeEvent(input$link_to_customization, {
+  newvalue <- "Additional customizations"
+  updateTabsetPanel(session,"panels",newvalue)
+})
+
 observeEvent(input$link_to_foods, {
   newvalue <- "Foods"
   updateTabsetPanel(session,"panels2",newvalue)
@@ -58,9 +78,24 @@ observeEvent(input$link_to_animals, {
   updateTabsetPanel(session,"panels",newvalue)
 })
 
+observeEvent(input$link_to_welcome, {
+  newvalue <- "What is Animal Observer?"
+  updateTabsetPanel(session,"panels",newvalue)
+})
+
+observeEvent(input$link_to_welcome2, {
+  newvalue <- "What is Animal Observer?"
+  updateTabsetPanel(session,"panels",newvalue)
+})
+
 observeEvent(input$link_to_grp, {
   newvalue <- "Group composition"
   updateTabsetPanel(session,"panels3",newvalue)
+})
+
+observeEvent(input$link_to_globalvar2, {
+  newvalue <- "Create global variables file"
+  updateTabsetPanel(session,"panels",newvalue)
 })
   
 dataOutput1 <- eventReactive(input$run, {

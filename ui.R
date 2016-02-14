@@ -49,7 +49,7 @@ shinyUI(fluidPage(
     )
     ))),
     tabPanel("Create list of study animals",
-
+    br(),
     sidebarLayout(
 
     # Sidebar with a slider input
@@ -127,7 +127,7 @@ shinyUI(fluidPage(
     ),
 	################################################
 	################################################
-
+	  tabPanel("Additional customizations", includeMarkdown("rmarkdown/Customizations.Rmd")),
     tabPanel("Convert collected data to csv",
     br(),
    
