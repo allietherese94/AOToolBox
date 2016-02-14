@@ -34,12 +34,12 @@ textInput <- reactive({
 })
 
 observeEvent(input$link_to_structure, {
-  newvalue <- "Create focal/scan data structure file"
+  newvalue <- "Create behavioral protocol file"
   updateTabsetPanel(session,"panels",newvalue)
 })
 
 observeEvent(input$link_to_studyanimals, {
-  newvalue <- "Create list of study animals"
+  newvalue <- "Create group composition file"
   updateTabsetPanel(session,"panels",newvalue)
 })
 
@@ -74,7 +74,7 @@ observeEvent(input$link_to_solo, {
 })
 
 observeEvent(input$link_to_animals, {
-  newvalue <- "Create list of study animals"
+  newvalue <- "Create group composition file"
   updateTabsetPanel(session,"panels",newvalue)
 })
 
@@ -97,6 +97,11 @@ observeEvent(input$link_to_globalvar2, {
   newvalue <- "Create global variables file"
   updateTabsetPanel(session,"panels",newvalue)
 })
+
+observeEvent(input$link_to_globalvar3, {
+  newvalue <- "Create global variables file"
+  updateTabsetPanel(session,"panels",newvalue)
+})
   
 dataOutput1 <- eventReactive(input$run, {
     if(is.null(dyadicInput()) | is.null(scanInput()) | is.null(soloInput()) | textInput()=="vX.X"){
@@ -111,7 +116,7 @@ dataOutput1 <- eventReactive(input$run, {
 
 output$text1 <- renderText({
 	if(is.null(dataOutput1())){return(NULL)}
-		return("DONE !")	
+		return("DONE!")	
 		})
 
 

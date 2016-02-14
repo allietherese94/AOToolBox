@@ -9,13 +9,13 @@ shinyUI(fluidPage(
 	tabsetPanel(
 	id = "panels",
 	  tabPanel("What is Animal Observer?", includeMarkdown("rmarkdown/AnimalObserver.Rmd")),
-    tabPanel("Create focal/scan data structure file",
+    tabPanel("Create behavioral protocol file",
     br(),
     sidebarLayout(
   
     # Sidebar with a slider input
     sidebarPanel(
-    fileInput('dyadic', '1. Upload social behavior (focal) csv file',
+    fileInput('dyadic', '1. Upload dyadic interactions csv file',
                 accept=c('text/csv', 
 								 'text/comma-separated-values,text/plain', 
 								 '.csv')),
@@ -48,13 +48,13 @@ shinyUI(fluidPage(
                   tabPanel("View protocol")
     )
     ))),
-    tabPanel("Create list of study animals",
+    tabPanel("Create group composition file",
     br(),
     sidebarLayout(
 
     # Sidebar with a slider input
     sidebarPanel(
-    helpText("Upload list of animals for each study group"),
+    helpText("Upload list of individuals"),
     fileInput('compo', 'Upload group composition csv file',
                 accept=c('text/csv', 
 								 'text/comma-separated-values,text/plain', 
@@ -127,7 +127,19 @@ shinyUI(fluidPage(
     ),
 	################################################
 	################################################
-	  tabPanel("Additional customizations", includeMarkdown("rmarkdown/Customizations.Rmd")),
+	  tabPanel("Additional customizations", includeMarkdown("rmarkdown/Customizations.Rmd"),
+	  br(),
+	  br(),
+	  br(),
+	  br(),
+	  br(),
+	  br(),
+	  br(),
+	  br(),
+	  br(),
+	  br(),
+	  br(),
+	  br()),
     tabPanel("Convert collected data to csv",
     br(),
    

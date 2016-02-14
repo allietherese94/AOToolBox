@@ -1,6 +1,8 @@
 ### What is the Animal Observer Toolbox?
 
-AO Toolbox is a user-friendly interface that allows you to fully customize and prepare files needed to run the Animal Observer iOS application, by running an R script in the background. These files---in ".json" format---will allow you to modify the protocol you wish to implement for observational data collection. You do not need any prior R knowledge to use this toolbox. 
+AO Toolbox is a user-friendly web application that allows you to fully customize the Animal Observer iOS application. AO Toolbox executes R functions in the background. The source code is accessible on [github](https://github.com/FosseyFund/AOToolBox).
+
+You will have to prepare three files ---in ".json" format--- to modify the protocol you wish to implement for observational data collection. You do not need any prior R knowledge to use this toolbox. 
 
 Use the tabs above for instructions on how to create the three protocol files:
 
@@ -8,13 +10,13 @@ Use the tabs above for instructions on how to create the three protocol files:
 * <a id="link_to_studyanimals" href="#" class="action-button">animals.json</a>
 * <a id="link_to_globalvar" href="#" class="action-button">layout_info.json</a> 
 
-Once you have created these files, you can add them to the Animal Observer application. You will need an iPad, an iPad cable, as well as the [iTunes software](http://www.apple.com/itunes/download/) package installed on your computer. Follow these steps:
+Once you have created these files, you can add them to the Animal Observer application. You will need to connect your iPad with Animal Observer installed to your computer and open the [iTunes software](http://www.apple.com/itunes/download/). Follow these steps:
 
-1. Connect your iPad to the computer and launch iTunes. 
-2. Click on the iPad icon ![iPad_icon](images/iPad_icon.png)
-3. Click on the **Apps** tab. Under **File Sharing** click on the Animal Observer app.
-4. Drag and drop the three ".json" protocol files to the **Animal Observer Documents** panel. 
-5. Sync your device. 
+1. Click on the iPad icon ![iPad_icon](images/iPad_icon.png)
+2. Click on the **Apps** tab. Scroll down to **File Sharing** and click on the Animal Observer app.
+3. Drag and drop the three ".json" protocol files to the **Animal Observer Documents** panel. 
+4. Sync your device. 
+5. If Animal Observer is already open on your device, [re-launch it](https://support.apple.com/en-us/HT201330).
 
 *N.B.* For additional customization of the application, follow <a id="link_to_customization" href="#" class="action-button">these instructions</a>. These extra files should also be added to the **Animal Observer Documents** panel. 
 
