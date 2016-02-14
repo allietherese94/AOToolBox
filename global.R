@@ -1,6 +1,13 @@
-require(shiny)
-require(rjson)
-require(rhandsontable)
+install.load <- function(package.name)
+{
+if (!require(package.name, character.only=T)) install.packages(package.name)
+library(package.name, character.only=T)
+}
+install.load("rjson")
+install.load("shiny")
+install.load("rjson")
+install.load("rhandsontable")
+install.load("markdown")
 source("prepare_behaviorsJson.R")
 source("prepare_foodsDyadicScanSolo.R")
 source("jsonOutputConversion.R")
