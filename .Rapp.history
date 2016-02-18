@@ -1,82 +1,3 @@
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-c("variable index:",LETTERS[1:(ncol(MAT)-1)])
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-tt
-names(tt) <- NULL
-tt
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-?dimnames
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-data.frame(variable.index=c("variable name:", 1:5))
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-data.frame(variable.index=c("variable name:", 1:5))
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-temp
-dat <- fromJSON(file="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset/layout_info_default.json")
-temp <- readLayoutJson(dat)
-temp
-temp <- list()#
-    	temp[[1]] <- values[["pinLayout"]]    #
-    temp[[2]] <- tableToList(values[["daysLayout"]])#
-    	temp[[3]] <- tableToList(values[["focalLayout"]])#
-    temp[[4]] <- tableToList(values[["scanLayout"]])
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-?downloadHandler
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-?as.bool
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-temp <- NULL
-temp
-temp[[1]]
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-?fileInput
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-?observe
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-?updatefileinput
-??updatefileinput
-?updateTextInput
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-?h2
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-35*4*4*12
-?shiny
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-?radioButton
-?shiny
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-?shiny
-?radioButtons
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/rhandsontable-master/inst/examples/rhandsontable_output")
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-?reactiveValues
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-actionLink("link_to_tabpanel_b", "Link to panel B")
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_Tool")
-runApp("~/Downloads/shinyAPp/R shiny/Animal_Observer_Tool")
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_Tool")
-runApp("~/Downloads/shinyAPp/R shiny/Animal_Observer_Tool")
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_Tool")
-library(shiny)
-install.packages("shiny")
-library(shiny)
-ip <- installed.packages()#
-pkgs.to.remove <- ip[!(ip[,"Priority"] %in% c("base", "recommended")), 1]#
-sapply(pkgs.to.remove, remove.packages)
-install.packages("shiny")
-library(shiny)
-library(rhansdontable)
-install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/shinyTable-master", repos=NULL, type="source")
-install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/rhandsontable-master", repos=NULL, type="source")
-install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/chron_2.3-47.tar.gz", repos=NULL, type="source")
-install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/data.table_1.9.6.tar.gz", repos=NULL, type="source")
-install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/metricsgraphics-master", repos=NULL, type="source")
-install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/data.table_1.9.6.tar.gz", repos=NULL, type="source")
-install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/quantmod_0.4-5.tar.gz", repos=NULL, type="source")
-install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/rhandsontable-master/inst/examples/shinydashboard-master", repos=NULL, type="source")
-runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/rhandsontable-master/inst/examples/rhandsontable_comment")
-install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/quantmod_0.4-5.tar.gz", repos=NULL, type="source")
 install.packages(pkgs="~/Downloads/rmarkdown_0.9.2.tar.gz", repos=NULL, type="source")
 install.packages(pkgs="~/Downloads/rhandsontable_0.3.tar.gz", repos=NULL, type="source")
 install.packages(pkgs="~/Downloads/htmlwidgets_0.5.tar.gz", repos=NULL, type="source")
@@ -245,3 +166,373 @@ library(rsconnect)#
 rsconnect::setAccountInfo(name='gorilladb', token='E850243F050F2C88DF89975CD207F179', secret='2wiO+M0v8v0KZHBMk7kwDDxwTqqZiiRT0smOuRK9')
 setwd("~/Documents/GITHUB clones/AOToolBox")
 deployApp()
+grcompo <- read.csv("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/data from Winnie for testing/grCompoTest.csv")
+head(grcompo)
+grcompo$ID
+uique(grcompo$ID)
+unique(grcompo$ID)
+?factor
+levels(grcompo$ID) <- as.character(unique(grcompo$ID))
+grcompo$ID
+library(shiny)
+runApp("~/Documents/GITHUB clones/AOToolBox")
+ind1 <- read.csv("~/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/2C5B8AB6-71ED-417C-AB4A-38B09320D5E4/list_individuals.csv")
+trans1 <- read.csv("~/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/A87D9D1F-644D-4E3E-B026-C497D092D8BB/individual_transfers.csv")
+head(ind1)#
+for(i in 1:ncol(ind1))#
+{#
+  ind1[,i] <- as.character(ind1[,i])#
+  ind1[ind1[,i]=="\\N",i] <- ""   # empty cell but not NA#
+  ind1[,i] <- as.factor(ind1[,i])#
+}
+head(ind1)
+head(trans1)#
+for(i in 1:ncol(trans1))#
+{#
+  trans1[,i] <- as.character(trans1[,i])#
+  trans1[trans1[,i]=="\\N",i] <- ""#
+  trans1[,i] <- as.factor(trans1[,i])#
+}
+getmum <- function(ind="TAR", indivs) # inidvs = list_individuals table = ind1#
+{#
+  mother <- indivs$mother_id[indivs$id==ind]#
+  savemum <- mother#
+  while(mother!="")#
+  {#
+    savemum <- mother#
+    #print(savemum)#
+    mother <- indivs$mother_id[as.character(indivs$id)==as.character(mother)]#
+  }#
+  return(as.character(savemum))#
+}
+ind1$id
+merge.demo.data <- function(indivs, transfers)#
+{#
+  indivs1 <- indivs#
+  transfers1 <- transfers#
+  indivs1$depart_date[indivs1$depart_type=="end of observation"] <- NA#
+  indivs1$depart_type[indivs1$depart_type=="end of observation"] <- NA#
+  indivs1$last_group[indivs1$depart_type=="end of observation"] <- NA#
+  indivs2 <- data.frame(id=as.character(rep(indivs1$id, 3)), date=c(as.character(indivs1$birthdate), as.character(indivs1$first_obs_date), as.character(indivs1$depart_date)), event=c(rep(c("birth", "firstobs"), each=nrow(indivs1)), as.character(indivs1$depart_type)), group_id=c(as.character(indivs1$natalgroup), as.character(indivs1$first_obs_group), as.character(indivs1$last_group)))#
+  indivs2 <- indivs2[order(indivs2[,1]),]#
+  #indivs2 <- indivs2[indivs2$date!="",]#
+  indivs2 <- indivs2[indivs2$date!="",]#
+  indivs2 <- indivs2[order(indivs2$id),]#
+  dat2 <- rbind(indivs2, transfers[,1:4])#
+  dat2 <- dat2[order(dat2$id),]#
+  dat3 <- merge(dat2, indivs1[,c(1,2,3,4,5)], all.x=T)#
+  names(dat3) <- c("ID", "date", "event", "group","name",  "sex", "mother", "father")#
+  return(dat3)#
+}
+pop.state <- function(indivs, transfers, date="2011-12-31", gr.list=c('BEE', 'BWE', 'GIR', 'GSH', 'INS', 'ISA', 'KUY', 'MAF', 'MNZ', 'MSK', 'NTA', 'PAB', 'RAN', 'SHI', 'TIT', 'UGE', 'URU', 'HIM'))#
+{#
+  demo1 <- merge.demo.data(indivs, transfers)#
+  listind <- listgroup <- listbirth <- listsex <- listnames <- listmothers <- listfathers <-  character(0)#
+  date2 <- as.Date(date)#
+  demo1$date <- as.Date(demo1$date)#
+  for (i in as.character(unique(demo1$ID)))#
+  {#
+    temp <- demo1[demo1$ID==i & demo1$date<=date2,]#
+    temp <- temp[!(is.na(temp$ID) | temp$ID==""),]#
+    if (nrow(temp)>0){	#
+      alive <- max(temp$event[temp$date==max(na.omit(temp$date))]%in%c("death", "disappearance", "group lost"))==0#
+      if(alive & max((temp$group[temp$date==max(temp$date)])%in%gr.list)>0){#
+        #print(i)#
+        listind <- c(listind, i)#
+        listgroup <- c(listgroup, as.character(rev(temp$group[temp$date==max(temp$date)])[1]))#
+        #print(as.character(temp$date[temp$event=='birth']))#
+        listbirth <- c(listbirth, as.character(temp$date[temp$event=='birth']))#
+        #print(as.character(temp$date[temp$event=='birth']))#
+        listsex <- c(listsex, as.character(temp$sex[1]))#
+        listnames <- c(listnames, as.character(temp$name[1]))#
+        listmothers <- c(listmothers, as.character(temp$mother[1]))#
+        listfathers <- c(listfathers, as.character(temp$father[1]))#
+      }#
+    }#
+  }#
+  age <- as.numeric(date2-as.Date(listbirth, "%Y-%m-%d"))/365.25#
+  tempp <- tapply(as.Date(demo1$date), demo1$ID, function(v) max(na.omit(v))-min(na.omit(v)))/365.25#
+  maxage <- max(na.omit(c(tempp)))#
+  alldat <-  data.frame(ID=listind, GR=listgroup, DOB=listbirth, AGE=age, SEX=listsex, NAME=listnames, MOTHER=listmothers, FATHER=listfathers)#
+  alldat <- alldat[rev(order(alldat$AGE)),]#
+  alldat <- alldat[order(alldat$GR),]#
+  listgroup <- listgroup[listgroup%in%gr.list]#
+  alldat <- alldat[alldat$GR%in%gr.list,]#
+  lsfam <- character(0)#
+  for (i in alldat$ID)#
+  {#
+    #print(i)#
+    lsfam <- c(lsfam, getmum(i, indivs))#
+  }#
+  alldat <- data.frame(alldat[,c(6,1,3,4,7,8)], FAMILY=lsfam, alldat[,c(2,5)])#
+  agesex <- ifelse(alldat$AGE>=12 & alldat$SEX=="M", "SB",#
+                   ifelse(alldat$AGE<12 & alldat$AGE>=8 & alldat$SEX=="M", "BB",#
+                          ifelse(alldat$AGE>=8 & alldat$SEX=="F", "AF",#
+                                 ifelse(alldat$AGE>=6 & alldat$AGE<8 & alldat$SEX=="M", "SAM",#
+                                        ifelse(alldat$AGE>=6 & alldat$AGE<8 & alldat$SEX=="F", "SAF",#
+                                               ifelse(alldat$AGE>=3.5 & alldat$AGE<6 & alldat$SEX=="M", "JVM",#
+                                                      ifelse(alldat$AGE>=3.5 & alldat$AGE<6 & alldat$SEX=="F", "JVF",#
+                                                             ifelse(alldat$AGE>=3.5 & alldat$AGE<6 & alldat$SEX=="U", "JV?",#
+                                                                    ifelse(alldat$AGE<3.5 & alldat$SEX=="F", "IF", #
+                                                                           ifelse(alldat$AGE<3.5 & alldat$SEX=="M", "IM", #
+                                                                                  ifelse(alldat$AGE<3.5 & alldat$SEX=="U", "I?", "OTHER")))))))))))#
+  alldat <- data.frame(alldat, AGESEX=agesex)#
+  return(list(date=date, n.gr=length(unique(listgroup)),gr.list=sort(unique(listgroup)), all=alldat))#
+}
+ans <- pop.state(ind1, trans1, date="2016-02-18", gr.list=c('BEE', 'BWE', 'GIR', 'GSH', 'INS', 'ISA', 'KUY', 'MAF', 'MNZ', 'MSK', 'NTA', 'PAB', 'RAN', 'SHI', 'TIT', 'UGE', 'URU', 'IYA', 'HIM')) # list of groups for APP iPad (at least study groups)
+ans
+write.csv(ans$all, "~/Downloads/group_compo_2016-02-18.csv", row.names=F)
+runApp("~/Documents/GITHUB clones/AOToolBox")
+grcompo <- read.csv("~/Downloads/group_compo_2016-02-18.csv")
+grcompo
+temp <- prepareGroupCompo(grcompo)
+temp
+writeLines(temp, con="~/Downloads/animalTemp.json")
+levels(grcompo$ID) <- as.character(unique(grcompo$ID))
+for(i in 1:ncol(grcompo))#
+{#
+	grcompo[,i] <- as.character(grcompo[,i])#
+	grcompo[is.na(grcompo[,i]),i] <- ""#
+}#
+grcompo$GR <- as.factor(grcompo$GR)
+grcompo
+levels(grcompo$GR)
+group <- list()
+group[[i]] <- list()
+group[[i]]$group <- levels(grcompo$GR)[i]
+group[[i]]$animals <- list()
+i <- 3
+levels(grcompo$GR)
+group[[i]]$group <- levels(grcompo$GR)[i]
+group <- list()
+group[[i]] <- list()
+group
+group[[i]]$group <- levels(grcompo$GR)[i]
+group
+grcompo[grcompo$GR==levels(grcompo$GR)[i],]
+group[[i]]$animals <- list()
+subgrcompo <- grcompo[grcompo$GR==levels(grcompo$GR)[i],]
+nrow(subgrcompo)
+group[[i]]$animals[[j]] <- list()
+j <- 1
+group[[i]]$animals[[j]] <- list()
+for (j in 1:nrow(subgrcompo))#
+{#
+group[[i]]$animals[[j]] <- list()#
+#
+temp <- which(!names(subgrcompo)%in%c("GR"))#
+for(k in 1:length(temp)){#
+	group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]#
+}#
+names(group[[i]]$animals[[j]]) <- names(subgrcompo)[temp]#
+}
+group
+j
+j <- 1
+group[[i]]$animals[[j]]
+group <- list()
+i
+group[[i]] <- list()#
+group[[i]]$group <- levels(grcompo$GR)[i]#
+group[[i]]$animals <- list()#
+subgrcompo <- grcompo[grcompo$GR==levels(grcompo$GR)[i],]
+j
+group[[i]]$animals[[j]] <- list()
+names(subgrcompo)%in%c("GR")
+names(subgrcompo)
+temp <- which(!names(subgrcompo)%in%c("GR"))
+temp
+k <- 1
+group
+group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]
+group
+names(subgrcompo)[temp]
+for (j in 1:nrow(subgrcompo))#
+{#
+group[[i]]$animals[[j]] <- list()#
+#
+temp <- which(!names(subgrcompo)%in%c("GR"))#
+for(k in 1:length(temp)){#
+	group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]#
+}
+names(group[[i]]$animals[[j]]) <- names(subgrcompo)[temp]
+}
+group
+group <- list()
+group[[i]] <- list()#
+group[[i]]$group <- levels(grcompo$GR)[i]#
+group[[i]]$animals <- list()#
+subgrcompo <- grcompo[grcompo$GR==levels(grcompo$GR)[i],]
+i
+j <- 1
+group[[i]]$animals[[j]] <- list()
+temp <- which(!names(subgrcompo)%in%c("GR"))
+for(k in 1:length(temp)){#
+	group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]#
+}
+group
+subgrcompo
+?as.data.frame
+group <- list()
+group[[i]] <- list()#
+group[[i]]$group <- levels(grcompo$GR)[i]#
+group[[i]]$animals <- list()#
+subgrcompo <- as.data.frame(grcompo[grcompo$GR==levels(grcompo$GR)[i],], stringsAsFactors=F)
+j
+for (j in 1:nrow(subgrcompo))#
+{#
+group[[i]]$animals[[j]] <- list()#
+#
+temp <- which(!names(subgrcompo)%in%c("GR"))#
+for(k in 1:length(temp)){#
+	group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]#
+}#
+names(group[[i]]$animals[[j]]) <- names(subgrcompo)[temp]#
+}
+group
+subgrcompo <- grcompo[grcompo$GR==levels(grcompo$GR)[i],]
+group <- list()
+group[[i]] <- list()#
+group[[i]]$group <- levels(grcompo$GR)[i]#
+group[[i]]$animals <- list()
+group
+subgrcompo <- grcompo[grcompo$GR==levels(grcompo$GR)[i],]
+subgrcompo
+j
+j <- 1
+group[[i]]$animals[[j]] <- list()
+temp <- which(!names(subgrcompo)%in%c("GR"))
+temp
+k
+k <- 1
+subgrcompo[j,temp[k]]
+group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]
+group
+k <- 2
+group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]
+group
+subgrcompo[j,temp[k]]
+subgrcompo
+levels(grcompo$GR)[i]
+grcompo
+grcompo <- read.csv("~/Downloads/group_compo_2016-02-18.csv")
+grcompo[grcompo$ID=="VUB",]
+levels(grcompo$ID) <- as.character(unique(grcompo$ID))
+grcompo[grcompo$ID=="VUB",]
+grcompo <- read.csv("~/Downloads/group_compo_2016-02-18.csv")
+as.character(unique(grcompo$ID))
+grcompo <- read.csv("~/Downloads/group_compo_2016-02-18.csv")
+prepareGroupCompo <- function(grcompo)#
+{#
+grcompo$ID <- factor(grcompo$ID, levels=as.character(unique(grcompo$ID)))#
+for(i in 1:ncol(grcompo))#
+{#
+	grcompo[,i] <- as.character(grcompo[,i])#
+	grcompo[is.na(grcompo[,i]),i] <- ""#
+}#
+grcompo$GR <- as.factor(grcompo$GR)#
+#
+group <- list()#
+for (i in 1:length(levels(grcompo$GR)))#
+{#
+group[[i]] <- list()#
+group[[i]]$group <- levels(grcompo$GR)[i]#
+group[[i]]$animals <- list()#
+subgrcompo <- grcompo[grcompo$GR==levels(grcompo$GR)[i],]#
+for (j in 1:nrow(subgrcompo))#
+{#
+group[[i]]$animals[[j]] <- list()#
+#
+temp <- which(!names(subgrcompo)%in%c("GR"))#
+for(k in 1:length(temp)){#
+	group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]#
+}#
+names(group[[i]]$animals[[j]]) <- names(subgrcompo)[temp]#
+}#
+}#
+return(toJSON(group))#
+}#
+#
+temp <- prepareGroupCompo(grcompo)#
+writeLines(temp, con="~/Downloads/animalTemp.json")
+grcompo <- read.csv("~/Downloads/group_compo_2016-02-18.csv")
+grcompo$ID <- factor(grcompo$ID, levels=as.character(unique(grcompo$ID)))
+grcompo
+grcompo[grcompo$ID=="VUB",]
+grcompo <- read.csv("~/Downloads/group_compo_2016-02-18.csv")
+grcompo$ID <- factor(grcompo$ID, levels=as.character(unique(grcompo$ID)))
+grcompo[grcompo$ID=="VUB",]
+for(i in 1:ncol(grcompo))#
+{#
+	grcompo[,i] <- as.character(grcompo[,i])#
+	grcompo[is.na(grcompo[,i]),i] <- ""#
+}#
+grcompo$GR <- as.factor(grcompo$GR)
+grcompo[grcompo$ID=="VUB",]
+group <- list()#
+for (i in 1:length(levels(grcompo$GR)))#
+{#
+group[[i]] <- list()#
+group[[i]]$group <- levels(grcompo$GR)[i]#
+group[[i]]$animals <- list()#
+subgrcompo <- grcompo[grcompo$GR==levels(grcompo$GR)[i],]#
+for (j in 1:nrow(subgrcompo))#
+{#
+group[[i]]$animals[[j]] <- list()#
+#
+temp <- which(!names(subgrcompo)%in%c("GR"))#
+for(k in 1:length(temp)){#
+	group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]#
+}#
+names(group[[i]]$animals[[j]]) <- names(subgrcompo)[temp]#
+}#
+}
+group
+i
+i <- 3
+group <- list()
+group[[i]] <- list()#
+group[[i]]$group <- levels(grcompo$GR)[i]#
+group[[i]]$animals <- list()#
+subgrcompo <- grcompo[grcompo$GR==levels(grcompo$GR)[i],]
+j <- 1
+group[[i]]$animals[[j]] <- list()#
+#
+temp <- which(!names(subgrcompo)%in%c("GR"))#
+for(k in 1:length(temp)){#
+	group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]#
+}
+group
+prepareGroupCompo <- function(grcompo)#
+{#
+grcompo$ID <- factor(grcompo$ID, levels=as.character(unique(grcompo$ID)))#
+for(i in 1:ncol(grcompo))#
+{#
+	grcompo[,i] <- as.character(grcompo[,i])#
+	grcompo[is.na(grcompo[,i]),i] <- ""#
+}#
+grcompo$GR <- as.factor(grcompo$GR)#
+#
+group <- list()#
+for (i in 1:length(levels(grcompo$GR)))#
+{#
+group[[i]] <- list()#
+group[[i]]$group <- levels(grcompo$GR)[i]#
+group[[i]]$animals <- list()#
+subgrcompo <- grcompo[grcompo$GR==levels(grcompo$GR)[i],]#
+for (j in 1:nrow(subgrcompo))#
+{#
+group[[i]]$animals[[j]] <- list()#
+#
+temp <- which(!names(subgrcompo)%in%c("GR"))#
+for(k in 1:length(temp)){#
+	group[[i]]$animals[[j]][[k]] <- subgrcompo[j,temp[k]]#
+}#
+names(group[[i]]$animals[[j]]) <- names(subgrcompo)[temp]#
+}#
+}#
+return(toJSON(group))#
+}
+temp <- prepareGroupCompo(grcompo)
+temp
+writeLines(temp, con="~/Downloads/animalTemp.json")

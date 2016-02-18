@@ -84,6 +84,6 @@ This file can include as many variables about group composition as necessary, fo
 
 #### Add animals.json file to iPad
 
-* Once this ".csv" file has been uploaded in the left panel, click on "Run" and the **"animals.json"** file will be generated. Click on "Download animals.json" to save the file and upload it to the iPad following <a id="link_to_welcome2" href="#" class="action-button">these instructions</a>. 
+* Once this ".csv" file has been uploaded in the left panel, the **"animals.json"** file will be generated. Click on "Download animals.json" to save the file and upload it to the iPad following <a id="link_to_welcome2" href="#" class="action-button">these instructions</a>. 
   
 ***
