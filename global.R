@@ -5,7 +5,6 @@ library(package.name, character.only=T)
 }
 install.load("rjson")
 install.load("shiny")
-install.load("rjson")
 install.load("rhandsontable")
 install.load("markdown")
 source("prepare_behaviorsJson.R")
