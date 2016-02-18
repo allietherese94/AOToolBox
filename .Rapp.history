@@ -1,0 +1,247 @@
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+c("variable index:",LETTERS[1:(ncol(MAT)-1)])
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+tt
+names(tt) <- NULL
+tt
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+?dimnames
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+data.frame(variable.index=c("variable name:", 1:5))
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+data.frame(variable.index=c("variable name:", 1:5))
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+temp
+dat <- fromJSON(file="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset/layout_info_default.json")
+temp <- readLayoutJson(dat)
+temp
+temp <- list()#
+    	temp[[1]] <- values[["pinLayout"]]    #
+    temp[[2]] <- tableToList(values[["daysLayout"]])#
+    	temp[[3]] <- tableToList(values[["focalLayout"]])#
+    temp[[4]] <- tableToList(values[["scanLayout"]])
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+?downloadHandler
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+?as.bool
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+temp <- NULL
+temp
+temp[[1]]
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+?fileInput
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+?observe
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+?updatefileinput
+??updatefileinput
+?updateTextInput
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+?h2
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+35*4*4*12
+?shiny
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+?radioButton
+?shiny
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+?shiny
+?radioButtons
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/rhandsontable-master/inst/examples/rhandsontable_output")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+?reactiveValues
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+actionLink("link_to_tabpanel_b", "Link to panel B")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_Tool")
+runApp("~/Downloads/shinyAPp/R shiny/Animal_Observer_Tool")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_Tool")
+runApp("~/Downloads/shinyAPp/R shiny/Animal_Observer_Tool")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_Tool")
+library(shiny)
+install.packages("shiny")
+library(shiny)
+ip <- installed.packages()#
+pkgs.to.remove <- ip[!(ip[,"Priority"] %in% c("base", "recommended")), 1]#
+sapply(pkgs.to.remove, remove.packages)
+install.packages("shiny")
+library(shiny)
+library(rhansdontable)
+install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/shinyTable-master", repos=NULL, type="source")
+install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/rhandsontable-master", repos=NULL, type="source")
+install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/chron_2.3-47.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/data.table_1.9.6.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/metricsgraphics-master", repos=NULL, type="source")
+install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/data.table_1.9.6.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/quantmod_0.4-5.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/rhandsontable-master/inst/examples/shinydashboard-master", repos=NULL, type="source")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/rhandsontable-master/inst/examples/rhandsontable_comment")
+install.packages(pkgs="~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/quantmod_0.4-5.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Downloads/rmarkdown_0.9.2.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Downloads/rhandsontable_0.3.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Downloads/htmlwidgets_0.5.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Downloads/yaml_2.1.13.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Downloads/htmlwidgets_0.5.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Downloads/rhandsontable_0.3.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Downloads/magrittr_1.5.tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Downloads/rhandsontable_0.3.tar.gz", repos=NULL, type="source")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Editable table/rhandsontable-master/inst/examples/rhandsontable_comment")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_Tool")
+install.packages(pkgs="~/Downloads/rjson_0.2.15.tar.gz", repos=NULL, type="source")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_Tool")
+install.packages(pkgs="~/Downloads/shiny-incubator-master", repos=NULL, type="source")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_Tool")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_tabset")
+runApp("~/Documents/GITHUB clones/Animal-Observer_R_analyses/R shiny/Animal_Observer_Tool")
+library(evaluate)
+library(digest)
+library(formatR)
+library(highR)
+library(stingr)
+install.packages(pkgs="~/Downloads/stringr_1.0.0 (1).tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Downloads/highr_0.5.1 (1).tar.gz", repos=NULL, type="source")
+install.packages(pkgs="~/Downloads/knitr_1.12.3 (1).tar.gz", repos=NULL, type="source")
+library(markdown)
+install.packages(pkgs="~/Downloads/rmarkdown_0.9.2 (1).tar.gz", repos=NULL, type="source")
+require('RWordPress')
+?require
+require('shiny')
+require('rjson')
+require(rjson)
+devtools::install_github("FosseyFund/AOToolBox-public")
+runGitHub( "FosseyFund/AOToolBox-public"
+)
+?runGitHub
+runApp("~/Downloads/AOToolBox-public-master")
+runGitHub("FosseyFund/AOToolBox-public")
+library(shiny)
+runGitHub("FosseyFund/AOToolBox-public")
+runApp("~/Downloads/AOToolBox-public-master")
+runApp("~/Documents/GITHUB clones/AOToolBox")
+runApp("~/Downloads/AOToolBox-public-master")
+runApp("~/Documents/GITHUB clones/AOToolBox")
+runApp("~/Downloads/AOToolBox-public-master")
+runApp("~/Downloads/FosseyFund-AOToolBox-009a684 2")
+runApp("~/Documents/GITHUB clones/AOToolBox")
+runApp("~/Downloads/FosseyFund-AOToolBox-d6f081f")
+library(xtable)
+my_data <- head(iris)#
+names(my_data) <- c(letters[1:ncol(iris)])
+library("knitr")#
+kable(my_data)
+library("xtable")#
+print(xtable(my_data), type = "html", include.rownames=FALSE, html.table.attributes=list("border='0' cellpadding='5' "))
+library("pander")#
+pandoc.table(my_data)
+runApp("~/Downloads/FosseyFund-AOToolBox-d6f081f")
+remove.packages(rjson)
+remove.packages("rjson")
+library(rjson)
+require(rjson)
+require("rjson")
+install.packages(rjson)
+install.packages('rjson')
+library(rjson)
+install.packages('rjson')
+remove.packages("rjson")
+library(rjson)
+remove.packages("rjson")
+test <- require(rjson)
+tets
+test
+install.load <- function(package.name)#
+{#
+if (require(package.name)) install.packages(package.name)#
+library(package.name)#
+}
+install.load("rjson")
+install.load("shiny")
+require(shiny)
+require("shiny")
+install.load <- function(package.name)#
+{#
+if (require(package.name)) install.packages(package.name)#
+library(package.name)#
+}
+install.packages(shiny)
+install.load <- function(package.name)#
+{#
+if (require(package.name)) install.packages(package.name)#
+require(package.name)#
+}#
+install.packages(shiny)
+install.packages("shiny")
+install.load <- function(package.name)#
+{#
+if (!require(package.name)) install.packages(package.name)#
+require(package.name)#
+}#
+install.packages("shiny")
+library(shiny)
+?require
+install.load <- function(package.name)#
+{#
+if (!require(package.name), character.only=T) install.packages(package.name)#
+require(package.name, character.only=T)#
+}#
+install.packages("shiny")
+install.load <- function(package.name)#
+{#
+if (!require(package.name), character.only=T) install.packages(package.name)#
+require(package.name, character.only=T)#
+}
+package.name
+install.load <- function(package.name)#
+{#
+if (!require(package.name, character.only=T) install.packages(package.name)#
+require(package.name, character.only=T)#
+}#
+install.packages("shiny")
+install.load <- function(package.name)#
+{#
+if (!require(package.name, character.only=T)) install.packages(package.name)#
+require(package.name, character.only=T)#
+}#
+install.packages("shiny")
+require(package.name, character.only=T)
+require(package.name)
+package.name <- "shiny"
+require(package.name, character.only=T)
+!require(package.name, character.only=T)
+install.load <- function(package.name)#
+{#
+if (!require(package.name, character.only=T)) install.packages(package.name)#
+require(package.name, character.only=T)#
+}
+install.packages("shiny")
+if (!require(package.name, character.only=T)) {#
+	install.packages(package.name)#
+	}
+require(package.name, character.only=T)
+install.load <- function(package.name)#
+{#
+if (!require(package.name, character.only=T)) {#
+	install.packages(package.name)#
+	}#
+require(package.name, character.only=T)#
+}#
+install.load("shiny")
+?library()
+install.load <- function(package.name)#
+{#
+if (!require(package.name, character.only=T)) install.packages(package.name)#
+library(package.name, character.only=T)#
+}#
+install.load("shiny")
+install.load("rjson")
+?RJSON
+?fromJSON
+?require
+install.load("rjson")
+library(shiny)
+runApp("~/Documents/GITHUB clones/AOToolBox")
+runGitHub("FosseyFund/AOToolBox-public")
+library(rsconnect)#
+rsconnect::setAccountInfo(name='gorilladb', token='E850243F050F2C88DF89975CD207F179', secret='2wiO+M0v8v0KZHBMk7kwDDxwTqqZiiRT0smOuRK9')
+setwd("~/Documents/GITHUB clones/AOToolBox")
+deployApp()

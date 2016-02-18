@@ -1,5 +1,6 @@
 prepareGroupCompo <- function(grcompo)
 {
+grcompo$ID <- factor(grcompo$ID, levels=as.character(unique(grcompo$ID)))
 for(i in 1:ncol(grcompo))
 {
 	grcompo[,i] <- as.character(grcompo[,i])
