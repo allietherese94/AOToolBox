@@ -2,10 +2,10 @@
 listFromCsv <- function(dat)
 {
 names(dat) <- gsub("[.]", "_", names(dat))##necessary due to use of unlist in jsonoutputconversion.R
-allbehav <- dat[!duplicated(dat),]	
+allbehav <- dat[!duplicated(dat),]
+for(i in 1:ncol(allbehav)) allbehav[,i] <- factor(allbehav[,i], levels=as.character(unique(allbehav[,i])))
 for (i in ncol(allbehav):1){
 	allbehav[allbehav[,i]=="" & !is.na(allbehav[,i]),i] <- NA
-	allbehav[,i] <- 	factor(allbehav[,i], levels=as.character(unique(allbehav[,i])))
 	allbehav <- allbehav[order(allbehav[,i]),]
 }
 row.names(allbehav) <- 1:nrow(allbehav)
