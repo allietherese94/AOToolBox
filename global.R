@@ -18,3 +18,4 @@ includesFOOD <- function(dat)
 	temp[is.na(temp)] <- FALSE
 	if(sum(temp)>0) return(TRUE) else return(FALSE)
 }
+#add my comment
