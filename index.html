@@ -1,25 +1,45 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Animal Observer by FosseyFund</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Animal Observer by allietherese94</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Animal Observer</h1>
-      <h2 class="project-tagline">An iPad application for behavior data collection</h2>
-      <a href="https://github.com/FosseyFund/AOToolBox" class="btn">View on GitHub</a>
-      <a href="https://github.com/FosseyFund/AOToolBox/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/FosseyFund/AOToolBox/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
 
-    <section class="main-content">
-      <h3>
+      <header>
+        <h1>Animal Observer</h1>
+        <p>An iPad application for behavior data collection</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/allietherese94/AOToolBox" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/allietherese94/AOToolBox/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/allietherese94/AOToolBox/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h3>
 <a id="what-is-animal-observer" class="anchor" href="#what-is-animal-observer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is Animal Observer?</h3>
 
 <p><strong>Animal Observer</strong> is an iOS application optimized for iPad and iPad mini. It allows users to collect behavioral data in the field or in captivity, but can also be used to record health data or any other individual-specific data. The current beta-version of <strong>Animal Observer</strong> is currently used by Fossey Fund scientists studying gorillas in Rwanda and Congo. The application will be made available to the public on the Apple App Store in April 2015.</p>
@@ -53,7 +73,7 @@
 <a id="customizing-animal-observer" class="anchor" href="#customizing-animal-observer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Customizing <strong>Animal Observer</strong>
 </h3>
 
-<p>We designed a small application names <strong>Animal Observer Toolbox</strong> to allow you to generate the <em>json</em> files needed to customize your user interface. You will need a recent version of software R to be able to access this application. R can be downloaded <a href="https://cran.r-project.org/">here</a>. Make sure R is installed on every computer you will use to set up Animal Observer and to download collected data. You will also need package 'shiny' to be installed. To do so, just type <code>install.packages('shiny')</code> in the R console.</p>
+<p>We designed a small application names <strong>Animal Observer Toolbox</strong> to allow you to generate the <em>json</em> files needed to customize your user interface. You will need a recent version of software R to be able to access this application. R can be downloaded <a href="https://cran.r-project.org/">here</a>. Make sure R is installed on every computer you will use to set up Animal Observer and to download collected data. You will also need package 'shiny' to be installed. To do so, just type <code>install.packages('shiny')</code> in the R console.in9iun89nu</p>
 
 <p>You will need an internet connection the first time you run the toolbox. To launch it, just type:</p>
 
@@ -78,15 +98,13 @@ runApp('AOToolBox-master')
 <p>Note that although the <strong>Animal Observer Tool Box</strong> is fully functional, it is still in development. The tutorials will be improved, video demos will be included and additional features will be added. Ideas and feedback are welcome !</p>
 
 <p>Thanks !</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/FosseyFund/AOToolBox">Animal Observer</a> is maintained by <a href="https://github.com/FosseyFund">FosseyFund</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/allietherese94">allietherese94</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
-
-    </section>
-
-  
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
   </body>
 </html>
