@@ -121,7 +121,20 @@
         <p>Necessary packages will then automatically be downloaded and the toolbox will start in your default internet browser. Follow the instructions in the different tabs to set up your user interface and convert the data you've collected to a set of csv files.</p>
 
         <p>Once you've launched the Toolbox using the above command, you can run it even without an internet access using the following procedure:</p>
-        
+       
+        <ul>
+          <li>Download the whole repository using the links at the top of the page. Unzip or untar it if you've downloaded it in a compressed format. You should obtain a folder named 'AOToolBox-master'.</li>
+          <li>Make sure R's working directory includes the AOToolBox folder.</li>
+          <li>Launch it from R by typing:</li>
+        </ul>
+
+          <pre><code>library(shiny)
+          runApp('AOToolBox-master')
+          </code></pre>
+
+          <p>Note that although the <strong>Animal Observer Tool Box</strong> is fully functional, it is still in development. The tutorials will be improved, video demos will be included and additional features will be added. Ideas and feedback are welcome!</p>
+
+          <p>Thank you!</p>
         </article>
         <!-- End main Content -->
       
