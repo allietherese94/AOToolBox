@@ -78,9 +78,9 @@ blockquote cite { position: absolute; right: 50px; text-align: right; bottom: 0;
 blockquote::before, blockquote::after { content: '\201C'; font-size: 100px; position: absolute; top: 0px; left: 0px; line-height: 1em; font-family: Georgia, "Times New Roman", serif; font-style: italic; color: #DDD; padding-right:20px; }
 
 
-footer {background: #80ff80; border-top: 1px solid #afdfff; }
+footer {background: #98fb98; border-top: 1px solid #afdfff; }
 #footer-base { background: #004000; font-size: 0.9em; font-style: italic; color: #EEE; padding: 0.8em 0; }
-#footer-base a { color: #80ff80; }
+#footer-base a { color: #98fb98; }
 #footer-base a:hover { color: #EEE; }
 
 .footer-columns { padding: 20px 0; }
